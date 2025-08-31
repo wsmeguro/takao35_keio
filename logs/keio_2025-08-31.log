@@ -1,0 +1,134 @@
+=== 2025-08-31 04:35:01 start ===
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [weekday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 9
+ progress: 175/274 candidates, kept 22
+shinjuku_to_takao_direct [weekday] 本数: 23
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_weekday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_takao_direct (4254/1/1) [holiday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 274
+ progress: 50/274 candidates, kept 5
+ progress: 75/274 candidates, kept 10
+ progress: 175/274 candidates, kept 25
+shinjuku_to_takao_direct [holiday] 本数: 35
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_holiday_shinjuku_to_takao_direct.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [weekday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 272
+ progress: 25/272 candidates, kept 13
+ progress: 75/272 candidates, kept 25
+ progress: 150/272 candidates, kept 37
+ progress: 175/272 candidates, kept 45
+ progress: 200/272 candidates, kept 53
+ progress: 225/272 candidates, kept 62
+ progress: 250/272 candidates, kept 67
+shinjuku_to_keiohachioji [weekday] 本数: 76
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_weekday_shinjuku_to_keiohachioji.csv
+
+=== Route: shinjuku_to_keiohachioji (4254/1/1) [holiday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 272
+ progress: 25/272 candidates, kept 8
+ progress: 75/272 candidates, kept 23
+ progress: 150/272 candidates, kept 36
+ progress: 175/272 candidates, kept 41
+ progress: 200/272 candidates, kept 46
+ progress: 225/272 candidates, kept 50
+ progress: 250/272 candidates, kept 59
+shinjuku_to_keiohachioji [holiday] 本数: 69
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_holiday_shinjuku_to_keiohachioji.csv
+
+=== Route: kitano_to_takao (8408/4/1) [weekday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 12
+ progress: 50/219 candidates, kept 24
+ progress: 75/219 candidates, kept 37
+ progress: 100/219 candidates, kept 49
+ progress: 125/219 candidates, kept 62
+ progress: 150/219 candidates, kept 74
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 98
+kitano_to_takao [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_weekday_kitano_to_takao.csv
+
+=== Route: kitano_to_takao (8408/4/1) [holiday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 219
+ progress: 25/219 candidates, kept 10
+ progress: 50/219 candidates, kept 23
+ progress: 75/219 candidates, kept 35
+ progress: 100/219 candidates, kept 48
+ progress: 125/219 candidates, kept 60
+ progress: 150/219 candidates, kept 73
+ progress: 175/219 candidates, kept 86
+ progress: 200/219 candidates, kept 97
+kitano_to_takao [holiday] 本数: 104
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_holiday_kitano_to_takao.csv
+
+=== Route: takao_to_up (2629/4/0) [weekday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 13
+ progress: 50/211 candidates, kept 26
+ progress: 75/211 candidates, kept 39
+ progress: 100/211 candidates, kept 51
+ progress: 125/211 candidates, kept 63
+ progress: 150/211 candidates, kept 74
+ progress: 175/211 candidates, kept 87
+ progress: 200/211 candidates, kept 99
+takao_to_up [weekday] 本数: 105
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_weekday_takao_to_up.csv
+
+=== Route: takao_to_up (2629/4/0) [holiday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 211
+ progress: 25/211 candidates, kept 12
+ progress: 50/211 candidates, kept 24
+ progress: 75/211 candidates, kept 36
+ progress: 100/211 candidates, kept 49
+ progress: 125/211 candidates, kept 62
+ progress: 150/211 candidates, kept 76
+ progress: 175/211 candidates, kept 88
+ progress: 200/211 candidates, kept 101
+takao_to_up [holiday] 本数: 106
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_holiday_takao_to_up.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [weekday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 180
+ progress: 25/180 candidates, kept 12
+ progress: 50/180 candidates, kept 25
+ progress: 75/180 candidates, kept 37
+ progress: 100/180 candidates, kept 50
+ progress: 125/180 candidates, kept 62
+ progress: 150/180 candidates, kept 72
+ progress: 175/180 candidates, kept 82
+kitano_to_shinjuku [weekday] 本数: 84
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_weekday_kitano_to_shinjuku.csv
+
+=== Route: kitano_to_shinjuku (8408/1/0) [holiday] @ 2025-08-31T09:00:00 ===
+[timetable] HTTP 200 application/json
+minutesからの候補本数: 180
+ progress: 25/180 candidates, kept 13
+ progress: 50/180 candidates, kept 25
+ progress: 75/180 candidates, kept 38
+ progress: 100/180 candidates, kept 50
+ progress: 125/180 candidates, kept 63
+ progress: 150/180 candidates, kept 78
+ progress: 175/180 candidates, kept 93
+kitano_to_shinjuku [holiday] 本数: 96
+CSV saved -> /home/masuday/projects/takao35/py_code/../py_data/keio/20250831_holiday_kitano_to_shinjuku.csv
+Wrote: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250831.json
+Local cutoff: 20250801  (keep last 30 days)
+Remote cutoff: 20250523 (keep last 100 days)
+mkdir: Access failed: 550 Can't create directory: File exists (/train)
+Uploaded: /home/masuday/projects/takao35/py_data/keio/publish/takao35_timetable_20250831.json
+Remote delete: no old files.
+=== 2025-08-31 05:43:04 done ===
