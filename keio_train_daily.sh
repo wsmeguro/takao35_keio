@@ -25,6 +25,12 @@ echo "=== $(/usr/bin/date '+%F %T') start ===" | tee -a "$LOG_FILE"
 # 加工（CSV → まとめJSON）
 "$PY" postprocess_to_json.py --date "$(/usr/bin/date +%F)" 2>&1 | tee -a "$LOG_FILE"
 
+# 時刻表JSON
+"$PY" make_timetable.py 2>&1 | tee -a "$LOG_FILE"
+
+# 時刻表のhtml化
+"$PY" render_timetable_html.py 2>&1 | tee -a "$LOG_FILE"
+
 # （任意）CoreServerにアップ
 "$BASE_DIR/upload_coreserver.sh" 2>&1 | tee -a "$LOG_FILE"
 

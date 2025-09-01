@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import os, sys, json, csv, argparse
 from datetime import datetime
-
+from make_timetable import shinjuku_to_takao3, takao3_to_shinjuku
+from render_timetable_html import render
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "py_data", "keio"))
 PUB_DIR = os.path.join(OUT_DIR, "publish")
@@ -73,3 +74,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    shinjuku_to_takao3()
+    takao3_to_shinjuku()
+    render()

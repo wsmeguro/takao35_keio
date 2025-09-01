@@ -37,7 +37,7 @@ ROUTES = {
     # 1') 新宿 → 下り（京王八王子行き特急）
     "shinjuku_to_keiohachioji": {
         "station": "4254", "line": "1", "direction": "1",
-        "type_keywords": ("特急",),  # ライナーは除外
+        "type_keywords": ("特急","急行"),  # ライナーは除外
         "dest_final": "京王八王子",
         "outfile": "shinjuku_to_keiohachioji.csv",
     },
@@ -58,7 +58,7 @@ ROUTES = {
     # 4) 北野 → 新宿（上り）
     "kitano_to_shinjuku": {
         "station": "8408", "line": "1", "direction": "0",
-        "type_keywords": ("特急", "京王ライナー", "快速特急"),
+        "type_keywords": ("特急", "京王ライナー", "快速特急", "急行"),
         "dest_final": "新宿",
         "outfile": "kitano_to_shinjuku.csv",
     },
